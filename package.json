@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp dev",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "gulp deploy"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +28,7 @@
     "node-sass": "^5.0.0"
   },
   "dependencies": {
+    "gulp-gh-pages": "^0.5.4",
     "uglifyify": "^5.0.2"
   }
 }
